@@ -133,6 +133,39 @@ body {
 
 }
 
+footer {
+    padding: 15px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.attribution {
+    padding: 10px 12px;
+    border: 1px solid var(--black);
+    border-left: none;
+
+    border-radius: 0 10px 10px 0;
+    background-color: var(--white-pure);
+
+    font-family: 'Figtree';
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--grey);
+}
+
+.attribution a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black); 
+    transition: color 0.5s ease;
+}
+
+.attribution a:hover {
+    color: var(--yellow);
+}
+
 @media only screen and (max-width: 375px) {
     .blog-preview-card-section {
         padding: 0 24px;
